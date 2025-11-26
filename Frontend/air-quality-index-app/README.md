@@ -199,12 +199,17 @@ The backend uses **node-cache** with:
 ## 5. Running the Project
 
 ### Backend
+cd Backend
+npm install
+npm run dev
 
 Environment variables required:
-
+PORT=3000
 AQI_TOKEN=<your_api_token_here>
 BASE_URL=https://api.waqi.info/feed
 
+### Frontend
+cd Frontend
 cd AIR-QUALITY-INDEX-APP
 npm install
 npm run dev
@@ -212,8 +217,7 @@ npm run dev
 VITE_BACKEND_URL=http://localhost:3000
 
 
-
----
+---------------------
 
 ## 6. Frontend Features
 
