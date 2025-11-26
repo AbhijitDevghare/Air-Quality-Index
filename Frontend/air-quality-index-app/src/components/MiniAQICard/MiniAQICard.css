@@ -1,0 +1,40 @@
+.mini-card {
+  width: 250px;
+  padding: 14px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.mini-card:hover {
+  transform: translateY(-4px);
+}
+
+.mini-card h4 {
+  font-size: 16px;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.mini-aqi {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.pollutant {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.view-btn {
+  padding: 6px 10px;
+  font-size: 13px;
+  border: none;
+  background: #0077ff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}

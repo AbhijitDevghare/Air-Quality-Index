@@ -1,0 +1,30 @@
+.home-container {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.home-container h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.home-subtitle {
+  font-size: 16px;
+  color: #555;
+  max-width: 500px;
+  line-height: 1.4;
+}
+
+
+.home-hero-right img
+{
+  max-width: 600px;
+}
+
+    
